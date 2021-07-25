@@ -5,3 +5,35 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puppy = Puppy.new(
+  name: "xaiver",
+  age: 2,
+  breed: "Basset Hound"
+)
+
+puppy.save
+
+puppy = Puppy.new(
+  name: "Dylan",
+  age: 3,
+  breed: "Begal"
+)
+
+puppy.save
+
+puppy = Puppy.new(
+  name: "Jose",
+  age: 2,
+  breed: "Chihuahua"
+)
+
+puppy.save
+
+puppy = Puppy.new(
+  name: "Escanor",
+  age: 1,
+  breed: "Border Collie"
+)
+
+puppy.save
